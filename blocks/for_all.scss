@@ -1,0 +1,55 @@
+body{
+    font-family: "Inter Tight";
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+%buttons{
+    width: 9em;
+    height: 3em;
+    font-family: "Inter Tight";
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+.otstup{
+    margin: 2% 6% 0 6%;
+}
+.otstup-btw-blocks{
+    margin-top: 100px;
+}
+.txt{
+    font-weight: 400;
+    font-size: 16px;
+    &_white{
+        color:#FFFFFF;
+    }
+    &_black{
+        color:#1D1D1F;
+    }
+    &_gray{
+        color: #838383;
+        margin-top: -50px;
+    }
+}
+h1{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 96px;
+}
+h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 32px;
+}
+h3{
+    color: #838383;
+    font-weight: 400;
+    font-size: 24px;
+}

@@ -1,0 +1,37 @@
+.header{
+    display:flex;
+    background-image: url('4f8162f7e4f227951a99fbff10627c70.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: auto;
+    margin-left: auto;
+    gap: 4%;
+}
+.otstup2{
+    margin-top: 115px;
+}
+.otstup3{
+    margin-top: -30px;
+}
+.otstup4{
+    margin-top: 30px;
+}
+.btn1{
+    @extend %buttons;
+    background-color: #FFFFFF;
+     border: 2px solid white;
+}
+a{
+    color:#FFFFFF;
+    &:hover{
+        color:#FFFFFF;
+    }
+}

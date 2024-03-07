@@ -1,0 +1,18 @@
+.descript {
+  font-weight: 400;
+  font-size: 16px;
+}
+.descript_gray {
+  color: #838383;
+}
+.descript_black {
+  color: #1D1D1F;
+}
+
+.quote {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1D1D1F;
+  padding-right: 30%;
+}/*# sourceMappingURL=quote.css.map */

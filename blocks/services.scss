@@ -1,0 +1,19 @@
+.color-h2{
+    color: #1d1d1f;
+}
+table{
+    border-collapse: collapse;
+}
+table td:nth-child(odd){
+    width: 20%;
+}
+table td:nth-child(even){
+    padding-left: 40%;
+}
+table td{
+    padding: 30px;
+    border: solid 1px #818181;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}

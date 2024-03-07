@@ -1,0 +1,54 @@
+body {
+  font-family: "Inter Tight";
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.otstup {
+  margin: 2% 6% 0 6%;
+}
+
+.otstup-btw-blocks {
+  margin-top: 100px;
+}
+
+.txt {
+  font-weight: 400;
+  font-size: 16px;
+}
+.txt_white {
+  color: #FFFFFF;
+}
+.txt_black {
+  color: #1D1D1F;
+}
+.txt_gray {
+  color: #838383;
+  margin-top: -50px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 96px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+h3 {
+  color: #838383;
+  font-weight: 400;
+  font-size: 24px;
+}/*# sourceMappingURL=for_all.css.map */

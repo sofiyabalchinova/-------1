@@ -1,0 +1,30 @@
+.btn2 {
+  width: 9em;
+  height: 3em;
+  background-color: #1D1D1F;
+  font-family: "Inter Tight";
+  font-weight: 600;
+  font-size: 1.2em;
+  color: white;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border: 2px solid black;
+  margin-top: 7%;
+}
+
+.img1-2 {
+  width: 50%;
+}
+
+.left-block {
+  margin-top: 100px;
+}
+
+.right-block2 {
+  margin-left: 5%;
+  margin-top: 100px;
+}
+
+.padding {
+  padding-right: 10%;
+}/*# sourceMappingURL=offers.css.map */
