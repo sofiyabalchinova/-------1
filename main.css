@@ -201,24 +201,23 @@ h3 {
   position: relative;
   margin: 20% 0 0 90%;
 }
-
-.arrow-top1,
-.arrow-bottom1 {
+.arrow1__arrow-top1 {
+  background: white;
+  width: 35px;
+  height: 17.5px;
+  left: -30px;
+  position: absolute;
+  top: 64px;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+}
+.arrow1__arrow-bottom1 {
   background: white;
   width: 35px;
   height: 17.5px;
   left: -30px;
   position: absolute;
   top: 60px;
-}
-
-.arrow-top1 {
-  top: 64px;
-  transform: rotate(45deg);
-  transform-origin: bottom right;
-}
-
-.arrow-bottom1 {
   transform: rotate(-45deg);
   transform-origin: top right;
 }
@@ -228,24 +227,23 @@ h3 {
   position: relative;
   margin: 22% 0 0 -80%;
 }
-
-.arrow-top2,
-.arrow-bottom2 {
+.arrow2__arrow-top2 {
+  background: white;
+  width: 35px;
+  height: 17.5px;
+  left: -30px;
+  position: absolute;
+  top: 35px;
+  transform: rotate(135deg);
+  transform-origin: bottom right;
+}
+.arrow2__arrow-bottom2 {
   background: white;
   width: 35px;
   height: 17.5px;
   left: -30px;
   position: absolute;
   top: 55px;
-}
-
-.arrow-top2 {
-  top: 35px;
-  transform: rotate(135deg);
-  transform-origin: bottom right;
-}
-
-.arrow-bottom2 {
   transform: rotate(-135deg);
   transform-origin: top right;
 }

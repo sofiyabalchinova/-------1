@@ -10,45 +10,67 @@
     cursor: pointer;
     position: relative;
     margin: 20% 0 0 90%;
-}
-.arrow-top1, 
-.arrow-bottom1{
-    background: #FFFF;
-    width: 35px;
-    height: 17.5px;
-    left: -30px;
-    position: absolute;
-    top: 60px;
-}
-.arrow-top1{
-    top:64px;
-    transform: rotate(45deg);
-    transform-origin: bottom right;
-}
-.arrow-bottom1{
-    transform: rotate(-45deg);
-    transform-origin: top right;
+    &__arrow-top1{
+        background: #FFFF;
+        width: 35px;
+        height: 17.5px;
+        left: -30px;
+        position: absolute;
+        top:64px;
+        transform: rotate(45deg);
+        transform-origin: bottom right;
+    }
+    &__arrow-bottom1{
+        background: #FFFF;
+        width: 35px;
+        height: 17.5px;
+        left: -30px;
+        position: absolute;
+        top: 60px;
+        transform: rotate(-45deg);
+        transform-origin: top right;
+    }
 }
 .arrow2{
     cursor: pointer;
     position: relative;
     margin: 22% 0 0 -80%;
+    &__arrow-top2{
+        background: #FFFF;
+        width: 35px;
+        height: 17.5px;
+        left: -30px;
+        position: absolute;
+        top:35px;
+        transform: rotate(135deg);
+        transform-origin: bottom right;
+    }
+    &__arrow-bottom2{
+        background: #FFFF;
+        width: 35px;
+        height: 17.5px;
+        left: -30px;
+        position: absolute;
+        top: 55px;
+        transform: rotate(-135deg);
+        transform-origin: top right;
+    }
 }
-.arrow-top2, 
-.arrow-bottom2{
-    background: #FFFF;
-    width: 35px;
-    height: 17.5px;
-    left: -30px;
-    position: absolute;
-    top: 55px;
-}
-.arrow-top2{
-    top:35px;
-    transform: rotate(135deg);
-    transform-origin: bottom right;
-}
-.arrow-bottom2{
-    transform: rotate(-135deg);
-    transform-origin: top right;
-}
+// .arrow-top2, 
+// .arrow-bottom2{
+//     background: #FFFF;
+//     width: 35px;
+//     height: 17.5px;
+//     left: -30px;
+//     position: absolute;
+//     top: 55px;
+// }
+// .arrow-top2{
+//     top:35px;
+//     transform: rotate(135deg);
+//     transform-origin: bottom right;
+// }
+// .arrow-bottom2{
+//     transform: rotate(-135deg);
+//     transform-origin: top right;
+// }
