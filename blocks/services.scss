@@ -17,3 +17,8 @@ table td{
     border-right: 0;
     border-bottom: 0;
 }
+@media screen and (max-width: 830px){
+    table td:nth-child(even){
+        padding-left: 20%;
+    }
+}

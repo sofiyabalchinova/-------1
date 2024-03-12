@@ -20,4 +20,10 @@ table td {
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
+}
+
+@media screen and (max-width: 830px) {
+  table td:nth-child(even) {
+    padding-left: 20%;
+  }
 }/*# sourceMappingURL=services.css.map */
