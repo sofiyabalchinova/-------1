@@ -306,6 +306,7 @@ table td {
 
 .line {
   border: solid 1px #838383;
+  width: 100%;
 }
 
 .arrow3 {
